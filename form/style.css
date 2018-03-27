@@ -1,0 +1,82 @@
+body, html, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    width: 720px;
+    margin: 200px auto;
+}
+
+.req {
+    color: tomato;
+}
+
+.input-field {
+    padding-bottom: 15px ;
+    position: relative;
+}
+
+.input-field label {
+    display: inline-block;
+    width: 120px;
+}
+
+label[for="message"] {
+    vertical-align: top;
+}
+
+textarea {
+    width: 200px;
+    height: 70px;
+    resize: none;
+
+}
+
+input, textarea {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    border: 1px solid lightgray;
+    padding: 5px 20px;
+    margin-left: 120px;
+
+}
+
+
+
+.tooltip {
+    position: absolute;
+    display: none;
+    width: 100px;
+    padding: 5px 15px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    background: tomato;
+    top: 0;
+    right: 30%;
+}
+
+.tooltip-arrow {
+    position: absolute;
+    top: 7px;
+    left: -5px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid tomato;
+}
+
+input:focus + .tooltip {
+    display: block;
+}
