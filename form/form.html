@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+
+    <form action="/action">
+        <div class="container">
+            <h3>Form Here</h3>
+            <span class="req">* requiered fields</span>
+            <hr>
+            <div class="input-field">
+                <input type="text" name="name" id="name" required placeholder="Name"><label class="lab" for="name">Name:</label>
+                <div class="tooltip">
+                        <span>Form field hint</span>
+                        <div class="tooltip-arrow"></div>
+                </div>
+            </div>
+            <div class="input-field">
+                <input type="text" name="email" id="email" required placeholder="Email"><label class="lab" for="email">Email:</label>
+                <div class="tooltip">
+                        <span>Form field hint</span>
+                        <div class="tooltip-arrow"></div>
+                </div>
+            </div>
+            <div class="input-field">
+                <input type="text" name="website" id="website" required placeholder="Website"><label class="lab" for="website">Website:</label>
+                <div class="tooltip">
+                        <span>Form field hint</span>
+                        <div class="tooltip-arrow"></div>
+                </div>
+            </div>
+            <div class="input-field">
+                <label for="message">Message:</label><textarea name="message" id="message"></textarea>
+            </div>
+            <input type="submit" name="submit" id="submit" value="Submit">
+        </div>    
+    </form>
+    
+    
+
+
+</body>
+</html>
