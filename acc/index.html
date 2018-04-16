@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 50%;
+        }
+
+        button {
+            display: inline-block;
+            border: 0;
+            outline: none;
+            width: 100%;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .content {
+            padding: 10px;
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+
+        .hover {
+            background: tomato;
+            width: 30%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <ul class="accordeon">
+        <li>
+            <button>Unfold 1</button>
+            <div class="content active">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptas facilis doloremque obcaecati laborum aut totam, architecto dolores? Aliquam, fugiat!</div>
+        </li>
+        <li>
+            <button>Unfold 2</button>
+            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam voluptas facilis doloremque obcaecati laborum aut totam, architecto dolores?Aliquam, fugiat!</div>
+        </li>
+        <li>
+            <button>Unfold 3</button>
+            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam voluptas facilis doloremque obcaecati laborum aut totam, architecto dolores?Aliquam, fugiat!</div>
+        </li>
+    </ul>
+<script src='main.js'></script>
+</body>
+</html>
